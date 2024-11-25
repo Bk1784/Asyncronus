@@ -1,5 +1,11 @@
 # books
 
+~ menambahkan getData dan mengedit pubspec.yaml
+![image](https://github.com/user-attachments/assets/0d97dada-5bb5-4099-9b7b-d63ff7a44af8)
+![image](https://github.com/user-attachments/assets/889880b4-2a5c-447b-8b25-3a648e62dca3)
+
+
+
 A new Flutter project.
 
 ## Getting Started
