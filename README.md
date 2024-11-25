@@ -21,6 +21,23 @@ onpressed(){} digunakan sebagai aksi apa yang dilakukan ketika tombol ditekan
 count() digunakan memanggil fungsi count
 ![image](https://github.com/user-attachments/assets/e5c1e2e8-8a3e-47d0-ace4-1a5aa02a401f)
 
+W11: Soal 5
+late Completer completer;
+Completer digunakan untuk memberikan kontrol secara manual terhadap penyelesaian sebuah fitur
+get Number(){
+menginisialisasi Completer<int> dan memanggil fungsii calculate()
+mengembalikan Future yang akan selesai ketika Completer diselesaikan dengan completer.complete()
+calculate()
+fungsi await digunakan untuk menunggu selama 5 detik menggunakan future delayed, lalu mnyelesaikan completer.complete(42)
+![image](https://github.com/user-attachments/assets/ad0234bc-9a45-41b8-bbd9-2b6cf1ac2778)
+
+W11: Soal 6
+perbedaan dalam kedua potong kode tersebut adalah ketika penangkapan error. dalam kode pertama tidak ada penangkapan jika terdapat error, tetapi pada kode kedua menggunakan try-catch dalam menangkap sebuah error
+![image](https://github.com/user-attachments/assets/9b9ec090-00ef-492e-b4e2-17e7a1f9fddf)
+
+
+
+
 
 
 
