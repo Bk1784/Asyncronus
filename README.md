@@ -10,6 +10,18 @@ value.body sebagai respon API yang dikonversi menjadi string
 substring digunakan untuk membatasi karakter pertama sebanyak 450 yang disimpan pada variable result. 
 ![image](https://github.com/user-attachments/assets/23a471ef-2dac-445c-b14f-30f4e1e18a5b)
 
+W11: Soal 4
+kode 1
+pada returnOneAsync digunakan untuk menunggu await selama 1 detik
+pada returnTwoAsync digunakan untuk menunggu await selama 2 detik
+pada returnThreeAsync digunakan untuk menunggu await selama 3 detik
+kode 2
+child digunakan sebagai properti isi tombol
+onpressed(){} digunakan sebagai aksi apa yang dilakukan ketika tombol ditekan
+count() digunakan memanggil fungsi count
+![image](https://github.com/user-attachments/assets/e5c1e2e8-8a3e-47d0-ace4-1a5aa02a401f)
+
+
 
 
 
