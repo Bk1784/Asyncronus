@@ -35,6 +35,12 @@ W11: Soal 6
 perbedaan dalam kedua potong kode tersebut adalah ketika penangkapan error. dalam kode pertama tidak ada penangkapan jika terdapat error, tetapi pada kode kedua menggunakan try-catch dalam menangkap sebuah error
 ![image](https://github.com/user-attachments/assets/9b9ec090-00ef-492e-b4e2-17e7a1f9fddf)
 
+W11: Soal 7
+![image](https://github.com/user-attachments/assets/561af297-ec6b-429e-bd6c-002a5ce2d151)
+
+
+
+
 
 
 
