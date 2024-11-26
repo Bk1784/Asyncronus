@@ -38,6 +38,12 @@ perbedaan dalam kedua potong kode tersebut adalah ketika penangkapan error. dala
 W11: Soal 7
 ![image](https://github.com/user-attachments/assets/561af297-ec6b-429e-bd6c-002a5ce2d151)
 
+W11: Soal 8
+perbedaanya adalah pada FutureGroup bis amenambahkan Future secara dinamis, sedangkan Future.wait harus tau dari awal.
+kode dalam FutureGroup lebih kompleks, sedangkat Future.wait lebih sederhana.
+FutureGroup menambahkan Future secara bertahap atau dinamis, sedangkan Future.wait sudah diketahui dari awal.
+
+
 
 
 
