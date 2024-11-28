@@ -43,6 +43,14 @@ perbedaanya adalah pada FutureGroup bis amenambahkan Future secara dinamis, seda
 kode dalam FutureGroup lebih kompleks, sedangkat Future.wait lebih sederhana.
 FutureGroup menambahkan Future secara bertahap atau dinamis, sedangkan Future.wait sudah diketahui dari awal.
 
+W11: Soal 9
+![image](https://github.com/user-attachments/assets/01c55b4b-7293-4a60-af11-e509b12324c5)
+
+W11: Soal 10
+tidak ada futurepagestate
+
+
+
 
 
 
