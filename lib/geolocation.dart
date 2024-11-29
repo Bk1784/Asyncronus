@@ -11,10 +11,12 @@ class LocationScreen extends StatefulWidget {
 class _LocationScreenState extends State<LocationScreen> {
   String myPosition = '';
   bool isLoading = true;
+  Future<Position>? position;
 
   @override
   void initState() {
     super.initState();
+    position = getPosition();
     getPosition().then((Position myPos) {
       setState(() {
         myPosition =
@@ -37,29 +39,28 @@ class _LocationScreenState extends State<LocationScreen> {
             style: TextStyle(color: Colors.white), 'Bagus Kurniawan'),
       ),
       body: Center(
-        child: isLoading ? const CircularProgressIndicator() : Text(myPosition),
+        child: FutureBuilder(
+            future: position,
+            builder: (BuildContext context, AsyncSnapshot<Position> snapshot) {
+              if (snapshot.connectionState == ConnectionState.waiting) {
+                return const CircularProgressIndicator();
+              } else if (snapshot.connectionState == ConnectionState.done) {
+                if (snapshot.hasError) {
+                  return const Text('something terrible happend');
+                }
+                return Text(snapshot.data.toString());
+              } else {
+                return const Text('');
+              }
+            }),
       ),
     );
   }
 
   Future<Position> getPosition() async {
-    bool serviceEnabled = await Geolocator.isLocationServiceEnabled();
-    if (!serviceEnabled) {
-      throw Exception('Layanan lokasi tidak diaktifkan.');
-    }
-
-    LocationPermission permission = await Geolocator.checkPermission();
-    if (permission == LocationPermission.denied) {
-      permission = await Geolocator.requestPermission();
-      if (permission == LocationPermission.denied) {
-        throw Exception('Izin lokasi ditolak.');
-      }
-    }
-
-    if (permission == LocationPermission.deniedForever) {
-      throw Exception('Izin lokasi ditolak secara permanen.');
-    }
-
-    return await Geolocator.getCurrentPosition();
+    await Geolocator.isLocationServiceEnabled();
+    await Future.delayed(const Duration(seconds: 3));
+    Position position = await Geolocator.getCurrentPosition();
+    return position;
   }
 }
