@@ -49,6 +49,13 @@ W11: Soal 9
 W11: Soal 10
 tidak ada futurepagestate
 
+W11: soal 13 dan 14
+tidak ada perbedaan UI apapun dikarenakan hal ini hanya memanajemen kode tanpa mengubah UI
+![image](https://github.com/user-attachments/assets/e652894b-62c7-4bc9-af45-455cbdfb4479)
+
+
+
+
 
 
 
