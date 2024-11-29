@@ -53,19 +53,14 @@ W11: soal 13 dan 14
 tidak ada perbedaan UI apapun dikarenakan hal ini hanya memanajemen kode tanpa mengubah UI
 ![image](https://github.com/user-attachments/assets/e652894b-62c7-4bc9-af45-455cbdfb4479)
 
+w11: soal 16
+ketika di klik maka akan ganti warna sesuai dengan warna yang kita pilih. dikarenakan pada navigation first merupakan awal saat masuk ke dalam halaman, ketika di klik change color maka akan berpindah ke nvigation second. navigation tersebut terdaapat pada navigation first. lalu pada navigation second disediakan 3 warna, yang sudah dideklarasikan pada class _navigationSecondState yaitu Color color; itu akan mengubah backround warna ketika di klik warna yang diingikan.
+![image](https://github.com/user-attachments/assets/776015ff-9d3b-472d-95c4-4796cce44a86)
 
 
-
-
-
-
-
-
-
-
-
-
-
+w11: soal 17
+- setiap di klik button akan berganti backround warna, dikarenakan dalam scaffold dideklarasikan backround: kan color; dan pada dalam onpressed dilogikakan. maka setiap di klik akan ganti warna.
+- ![image](https://github.com/user-attachments/assets/2869eed6-90ad-4903-931e-6c01f01fdfdc)
 
 
 
